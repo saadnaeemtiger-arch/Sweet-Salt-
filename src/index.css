@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom palette matching Geometric Balance luxury bakery mood */
+  --color-gold-50: #FDFBF7;
+  --color-gold-100: #F5F2ED;
+  --color-gold-200: #e6dfd5;
+  --color-gold-300: #dbcfb9;
+  --color-gold-400: #d4b87e;
+  --color-gold-500: #C5A059;
+  --color-gold-600: #b08d4b;
+  --color-gold-700: #93743c;
+  --color-gold-800: #745b2f;
+  --color-gold-900: #564221;
+  
+  --color-choco-50: #fbf9f7;
+  --color-choco-100: #f2ede9;
+  --color-choco-200: #e6dcd4;
+  --color-choco-300: #cfbfb3;
+  --color-choco-400: #b59f90;
+  --color-choco-500: #9a8070;
+  --color-choco-600: #8c7161;
+  --color-choco-700: #745c4e;
+  --color-choco-800: #5d483d;
+  --color-choco-900: #4a382e;
+  --color-choco-950: #3D2B1F;
+}
+
+/* Custom styles for smooth luxury transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-gold-50);
+  color: var(--color-choco-950);
+}
+
+/* Custom scrollbar for premium aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-gold-50);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-choco-200);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-400);
+}

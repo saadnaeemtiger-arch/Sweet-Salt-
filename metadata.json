@@ -1,0 +1,6 @@
+{
+  "name": "Sweet & Salt HUT",
+  "description": "An elegant, luxurious bakery website for Sweet & Salt HUT featuring custom cake planners, interactive menu catalogs, shopping cart experience, and responsive design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
